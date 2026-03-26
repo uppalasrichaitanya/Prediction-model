@@ -26,7 +26,6 @@ verify.py
 train_final.py
 combine_cricsheet.py
 fix_rf.py
-*.txt
 columns.txt
 
 # OS
