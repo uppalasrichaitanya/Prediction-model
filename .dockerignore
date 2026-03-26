@@ -1,0 +1,40 @@
+# Data files (large, not needed in container)
+data/
+
+# Notebooks (dev only)
+notebooks/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtualenvs
+venv/
+env/
+ipl-env/
+
+# Git
+.git/
+.gitignore
+
+# Dev / test files
+tests/
+verify.py
+train_final.py
+combine_cricsheet.py
+fix_rf.py
+*.txt
+columns.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+
+# Optuna DB
+optuna.db
