@@ -1,0 +1,16 @@
+{
+  "type": "weighted_average_ensemble",
+  "models": [
+    "xgboost",
+    "lightgbm",
+    "random_forest"
+  ],
+  "weights": [
+    0.41875682667641584,
+    0.5621711260538406,
+    0.019072047269743663
+  ],
+  "brier_score": 0.13606668160291,
+  "accuracy": 0.8044822256568779,
+  "roc_auc": 0.8838459651960858
+}

@@ -1,0 +1,30 @@
+# Raw data (too large for GitHub)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+ipl-env/
+
+# Large model files
+model/baseline_*.pkl
+model/tuned_random_forest.pkl
+model/calibrated_random_forest.pkl
+# Uncomment if model > 100MB:
+# model/ensemble_model.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optuna
+optuna.db

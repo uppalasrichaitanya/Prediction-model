@@ -1,0 +1,20 @@
+{
+  "ipl": {
+    "avg_first_innings": 165.54703196347032,
+    "chasing_win_rate": 0.5402930402930403,
+    "total_matches": 1095,
+    "total_deliveries": 260920
+  },
+  "t20i": {
+    "avg_first_innings": 149.15396978463517,
+    "chasing_win_rate": 0.5067524115755627,
+    "total_matches": 3111,
+    "total_deliveries": 711581
+  },
+  "bbl": {
+    "avg_first_innings": 161.63833075734158,
+    "chasing_win_rate": 0.527047913446677,
+    "total_matches": 647,
+    "total_deliveries": 151331
+  }
+}

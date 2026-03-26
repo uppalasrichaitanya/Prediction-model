@@ -1,0 +1,53 @@
+{
+  "model_type": "Weighted Ensemble (XGBoost + LightGBM + RF)",
+  "training_date": "2026-03-26",
+  "datasets_used": [
+    "IPL 2008-2024",
+    "T20I 2003-2024",
+    "BBL 2011-2024"
+  ],
+  "overall_accuracy": 0.8039155074703761,
+  "brier_score": 0.1363985378170607,
+  "roc_auc": 0.8836453169474028,
+  "accuracy_by_phase": {
+    "powerplay": 0.7260221627818112,
+    "middle": 0.7916271858041175,
+    "death": 0.8707561728395061
+  },
+  "ensemble_weights": {
+    "xgboost": 0.30000000000000004,
+    "lightgbm": 0.5000000000000001,
+    "random_forest": 0.19999999999999984
+  },
+  "feature_names": [
+    "runs_left",
+    "balls_left",
+    "wickets_remaining",
+    "crr",
+    "rrr",
+    "run_rate_diff",
+    "batting_team",
+    "bowling_team",
+    "city",
+    "league",
+    "over_number",
+    "is_powerplay",
+    "is_middle_overs",
+    "is_death_overs",
+    "pressure_index",
+    "required_balls_per_run",
+    "wickets_pressure",
+    "recent_12_balls_rr",
+    "last_3_overs_avg",
+    "momentum_vs_required",
+    "total_extras",
+    "extras_rate",
+    "wides_this_innings",
+    "extra_balls_gained",
+    "boundary_percentage",
+    "dot_ball_percentage",
+    "partnership_runs",
+    "partnership_balls"
+  ],
+  "rf_warning_fixed": true
+}
