@@ -5,10 +5,10 @@
 > Powers ipl-bet in production.
 
 ## Live API
-https://ipl-probability-engine.onrender.com
+https://prediction-model-c7ws.onrender.com
 
 ## Swagger Docs
-https://ipl-probability-engine.onrender.com/docs
+https://prediction-model-c7ws.onrender.com/docs
 
 ## Powers
 https://ipl-bet.vercel.app
